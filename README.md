@@ -86,7 +86,51 @@ margin-left
 - "margin-left"	Establece el margen izquierdo de un elemento.
 
 ## DISPLAY BLOCK
+
 Es una propiedad que indica que un elemento debe ser mostrado como un bloquede ancho completo dentro de su contenedor, con saltos de linea antes y despues del elemento
+Ejemplo de esta es la etiqueta "p"
 
+## INLINE
 
-## 
+El display inline establece que un elemento ocupará el espacio del contenido del mismo y el siguiente elemento se situará a la derecha
+Ejemplo de esta serian las etiquetas button, input, label, select, textarea
+
+## INLINE-BLOCK
+
+El display inline-block combina las ventajas de bloque de colocar medidas al elemento y propiedades del modelo de caja correctamente; con las ventajas de inline de color un elemento seguido de otro en el mismo espacio.
+Ejemplo de esta seria la etiqueta "display"
+
+## EVENTOS DE JS
+
+- Eventos de mouse: Estos eventos ocurren cuando el usuario interactúa con el mouse. Algunos ejemplos son click, mousedown, mouseup, mousemove, mouseover, mouseout.
+
+- Eventos de teclado: Estos eventos ocurren cuando el usuario interactúa con el teclado. Algunos ejemplos son keydown, keyup, keypress.
+
+- Eventos de carga: Estos eventos ocurren cuando la página o un elemento de la página se carga. Algunos ejemplos son load, DOMContentLoaded, readystatechange.
+
+- Eventos de cambio: Estos eventos ocurren cuando se produce un cambio en un elemento. Algunos ejemplos son change, input, submit.
+
+- Eventos de tiempo: Estos eventos se utilizan para manejar temporizadores y esperas. Algunos ejemplos son setTimeout, setInterval.
+
+- Eventos de ventana: Estos eventos ocurren cuando se produce un cambio en la ventana del navegador. Algunos ejemplos son resize, scroll.
+
+- Eventos de formulario: Estos eventos ocurren cuando se envía un formulario. Algunos ejemplos son submit, reset.
+
+- Eventos de arrastre y soltar: Estos eventos se utilizan para manejar el arrastre y la suelta de elementos. Algunos ejemplos son dragstart, dragover, drop.
+
+## SELECTORES
+
+Selectores simples: Los selectores simples seleccionan elementos HTML específicos en función de su nombre de etiqueta, clase o identificador. Los selectores simples incluyen los siguientes:
+
+- Selector de etiqueta: selecciona elementos HTML en función de su nombre de etiqueta. Por ejemplo, p selecciona todos los párrafos en la página.
+- Selector de clase: selecciona elementos HTML en función de su atributo de clase. Por ejemplo, .clase selecciona todos los elementos que tienen la clase "clase".
+- Selector de identificador: selecciona elementos HTML en función de su atributo de identificador. Por ejemplo, #identificador selecciona el elemento con el identificador "identificador".
+
+Selectores compuestos: Los selectores compuestos seleccionan elementos HTML específicos en función de varias condiciones. Los selectores compuestos incluyen los siguientes:
+
+- Selector descendente: selecciona elementos que son descendientes de otro elemento. Por ejemplo, ul li selecciona todos los elementos li que son descendientes de un elemento ul.
+- Selector de hijo directo: selecciona elementos que son hijos directos de otro elemento. Por ejemplo, ul > li selecciona todos los elementos li que son hijos directos de un elemento ul.
+- Selector de atributo: selecciona elementos HTML en función de sus atributos. Por ejemplo, [type="text"] selecciona todos los elementos con el atributo type igual a "text".
+- Selector de pseudo-clase: selecciona elementos HTML en función de un estado específico del elemento. Por ejemplo, a:hover selecciona todos los enlaces cuando el cursor del mouse se coloca sobre ellos.
+- Selector de combinador: combina dos o más selectores para seleccionar elementos HTML específicos. Por ejemplo, p + p selecciona todos los elementos p que están inmediatamente después de otro elemento p.
+
