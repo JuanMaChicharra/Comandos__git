@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Formulario</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -18,28 +20,35 @@
             </ul>
         </nav>
     </header>
-    <h1>PROPIETARIO DEL VEHICULO</h1>
-    <input type="text" placeholder="propietario del vehiculo" >
-    <h1>MODELO DEL VEHICULO</h1>
-    <input type="text" placeholder="modelo del vehiculo" >
-    <div>
-    <h1>PLACA
-    </h1>
-    <input type="text" placeholder="NN-NN-LL" > 
-    <h1>TIPO DE VEHICULO</h1>
-        <input type="text" placeholder="Carro Moto" >
-     </div>
-     <div id="div2">
-    <h1>FECHA DE ENTRADA</h1>
-    <input type="date" placeholder="dd/mm/aaaa" >
-        
-        <h1>HORA DE INICIO</h1>
-        <input type="time" placeholder="hh:mm" >
-        <h1>CANTIDAD DE HORAS</h1>
-        <input type="number" placeholder="Cantidad" >
+    <main>
+        <form action="" id="conte">
+            <label>PROPIETARIO DEL VEHICULO</label>
+            <input type="text" placeholder="propietario del vehiculo" id="pdv">
+            <label>MODELO DEL VEHICULO</label>
+            <input type="text" placeholder="modelo del vehiculo" id="mdv">
+            <div>
+                <label>PLACA
+                </label>
+                <input type="text" placeholder="NN-NN-LL" id="pl">
+                <label>TIPO DE VEHICULO</label>
+                <input type="text" placeholder="Carro Moto" id="tdv">
+            </div>
+            <div id="div2">
+                <label>FECHA DE ENTRADA</label>
+                <input type="date" placeholder="dd/mm/aaaa" id="fecha">
 
-    </div>
+                <label>HORA DE INICIO</label>
+                <input type="time" placeholder="hh:mm" id="hora">
+                <label>CANTIDAD DE HORAS</label>
+                <input type="number" placeholder="Cantidad" id="cantidad">
 
-    <button type="submit" id="tin">Enviar</button>
+            </div>
+
+            <button type="submit" id="tin">Enviar</button>
+        </form>
+    </main>
+    <script src="../formu/script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
